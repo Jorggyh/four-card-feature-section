@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+  header {
+    max-width: 60rem;
+    margin: 8rem 0 6.3rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 3.5rem;
+    line-height: 5.1rem;
+  }
+
+  h2 {
+    padding-bottom: 1.7rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-areas:
+      "col-left col-top-center col-right"
+      "col-left col-bottom-center col-right";
+    max-width: 100%;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .card + .card {
+    margin: 0;
+  }
+
+  .supervisor {
+    grid-area: col-left;
+  }
+
+  .team-builder {
+    grid-area: col-top-center;
+  }
+
+  .karma {
+    grid-area: col-bottom-center;
+  }
+
+  .calculator {
+    grid-area: col-right;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    gap: 3rem;
+  }
+
+  .card {
+    max-width: 35rem;
+    padding: 3.1rem;
+  }
+
+  .card p {
+    line-height: 2.3rem;
+    margin: 0.9rem 0 3.8rem;
+  }
+
+  .card img {
+    width: 6.4rem;
+  }
+}
