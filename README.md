@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution
-  URL: []()
+  URL: [https://www.frontendmentor.io/solutions/gridtemplateareas-s2-5o1EQ_ZaCY](https://www.frontendmentor.io/solutions/gridtemplateareas-s2-5o1EQ_ZaCY)
 - Live Site
   URL: [https://jorggyh.github.io/four-card-feature-section/](https://jorggyh.github.io/four-card-feature-section/)
 
